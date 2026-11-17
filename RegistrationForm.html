@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Section</title>
+</head>
+
+<body style="background-color: bisque;">
+    <h1 style="color: black; text-align: center;">
+        Employee Registration Form
+    </h1>
+
+    <form action="Success1.html" method="post">
+        <h4>
+            Employee Name
+            <input type="text" name="employeeName" placeholder="Enter your full name" required>
+        </h4>
+
+        <h4>
+            Password
+            <input type="password" name="password" placeholder="Enter your password" required>
+        </h4>
+
+        <h4>
+            Email
+            <input type="email" name="email" placeholder="Enter your email" required>
+        </h4>
+
+        <h4>
+            Mobile number
+            <input type="mobile" name="mobile" placeholder="Enter your mobile number">
+        </h4>
+
+        <h4>
+            Age
+            <input type="number" name="age" min="1" placeholder="Enter your age">
+        </h4>
+
+        <h4>
+            Date of Birth <input type="date" name="dob">
+        </h4>
+
+        <h4>
+            Preferred interview time <input type="time">
+        </h4>
+
+        <h4>
+            Gender
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <input type="radio" name="gender" value="prefer-not-to-say"> Rather not say
+
+        </h4>
+
+        <h4>
+            Skills
+            <input type="checkbox" name="skills" value="html"> HTML
+            <input type="checkbox" name="skills" value="css"> CSS
+            <input type="checkbox" name="skills" value="javascript">JavaScript
+
+        </h4>
+
+        <h4>
+            Select Department:
+            <select name="department" required>
+                <option value="">Select an option</option>
+                <option value="cse">CSE</option>
+                <option value="cse-ai-ds">CSE AI-DS</option>
+                <option value="ec">EC</option>
+                <option value="cs-it">CS-IT</option>
+            </select>
+        </h4>
+
+        <h4>
+            Upload Resume
+            <input type="file" name="uploadedFile">
+        </h4>
+
+        <h4>
+            Address
+            <textarea name="address" rows="4" cols="40"></textarea>
+        </h4>
+
+        <h4>
+            Work Experience:
+            <input type="range" name="experience" min="0" max="20">
+        </h4>
+
+        <h4>
+            LinkedIn URL
+            <input type="url" name="linkedin" placeholder="Link.....">
+        </h4>
+
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
